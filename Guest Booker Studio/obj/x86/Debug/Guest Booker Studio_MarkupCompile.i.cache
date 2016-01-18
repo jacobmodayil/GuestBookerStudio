@@ -1,0 +1,20 @@
+﻿Guest Booker Studio
+
+
+winexe
+C#
+.cs
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\obj\x86\Debug\
+Guest_Booker_Studio
+none
+false
+DEBUG;TRACE
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\App.xaml
+27-666717605
+2693877960
+40-185322919
+18-1971741341
+MainWindow.xaml;Presentation\Controls\DayBoxAppointmentControl.xaml;Presentation\Pages\Entity\Contact\AddNewContact.xaml;Presentation\Pages\Entity\Contact\ContactMainPage.xaml;Presentation\Pages\Entity\Contact\DeleteContact.xaml;Presentation\Pages\Entity\Contact\ViewAllContacts.xaml;Presentation\Pages\Entity\Customer\CustomerMainPage.xaml;Presentation\Pages\Entity\Customer\DeleteCustomer.xaml;Presentation\Pages\Entity\Customer\ViewAllCustomers.xaml;Presentation\Pages\Generic\InnerWindow.xaml;Presentation\Pages\Generic\StartPage.xaml;Presentation\Controls\BookerStudioMessageBox.xaml;Presentation\Controls\CalendarControl.xaml;Presentation\Controls\CustomerExplorerControl.xaml;Presentation\Controls\DayBoxControl.xaml;Presentation\Controls\DaysOfWeekControl.xaml;Presentation\Controls\MenuControl.xaml;Presentation\Controls\MonthView.xaml;Presentation\Controls\ToolBarControl.xaml;Presentation\Pages\Entity\Customer\AddNewCustomer.xaml;Presentation\Themes\BookerStudioDefaultTheme\GuestBookerStudioDefaultTheme.xaml;Presentation\Themes\BookerStudioDefaultTheme\Stylesheets\ButtonStyles.xaml;Presentation\Themes\BookerStudioDefaultTheme\Stylesheets\DataGridStyles.xaml;Presentation\Themes\BookerStudioDefaultTheme\Stylesheets\GenericStyles.xaml;Presentation\Themes\BookerStudioDefaultTheme\Stylesheets\MenuStyles.xaml;Presentation\Themes\BookerStudioDefaultTheme\Stylesheets\ScrollBarStyles.xaml;Presentation\Themes\BookerStudioDefaultTheme\Stylesheets\TabStyles.xaml;
+
+False
+

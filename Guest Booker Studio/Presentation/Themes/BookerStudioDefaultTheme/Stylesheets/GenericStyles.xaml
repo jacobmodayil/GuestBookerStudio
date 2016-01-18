@@ -1,0 +1,92 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+					xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+	<Style x:Key="LinkButtonStyle"  TargetType="{x:Type Button}" BasedOn="{StaticResource {x:Static ToolBar.ButtonStyleKey}}">
+		<Setter Property="Background" Value="Transparent" />
+		<Setter Property="BorderBrush" Value="Transparent" />
+		<Setter Property="BorderThickness" Value="0" />
+	</Style>
+
+	<!--<Style TargetType="TextBox" BasedOn="{StaticResource {x:Type TextBox}}">
+		<Setter Property="BorderBrush" Value="#AAA" />
+		<Setter Property="BorderThickness" Value="1" />
+	</Style>
+
+	<Style TargetType="ComboBox" BasedOn="{StaticResource {x:Type ComboBox}}">
+		<Setter Property="BorderBrush" Value="#CCC" />
+		<Setter Property="BorderThickness" Value="1" />
+	</Style>-->
+
+	<LinearGradientBrush x:Key="ButtonBrush" StartPoint="0,0" EndPoint="0,1">
+		<GradientStop Offset="0" Color="#FFF"/>
+		<GradientStop Offset="2" Color="#B9B9B9"/>
+	</LinearGradientBrush>
+
+	<Style x:Key="GlowText" TargetType="{x:Type ContentPresenter}" >
+		<Setter Property="BitmapEffect">
+			<Setter.Value>
+				<BitmapEffectGroup>
+					<OuterGlowBitmapEffect GlowColor="PaleGreen" GlowSize="3"></OuterGlowBitmapEffect>
+				</BitmapEffectGroup>
+			</Setter.Value>
+		</Setter>
+	</Style>
+	<!--<Style   TargetType="{x:Type Button}"  >
+		<Setter Property="BackgroundBrush" Value="{StaticResource ButtonBrush}" />
+	</Style>-->
+	<!--<Style   TargetType="{x:Type Button}"  >
+		<Setter Property="Template">
+			<Setter.Value>
+				<ControlTemplate TargetType="Button" >
+					<Border Name="border" 
+							BorderThickness="1"
+							Padding="4,2" 
+							BorderBrush="DarkGray" 
+							CornerRadius="6" 
+							Background="{TemplateBinding Background}">
+						<Grid  >
+							<ContentPresenter HorizontalAlignment="Center"  
+							VerticalAlignment="Center" Style="{StaticResource GlowText}"/>
+						</Grid>
+					</Border>
+				</ControlTemplate>
+			</Setter.Value>
+		</Setter>
+		<Setter Property="BitmapEffect">
+			<Setter.Value>
+				<BitmapEffectGroup>
+					<DropShadowBitmapEffect ShadowDepth="1" Color="White"></DropShadowBitmapEffect>
+					<OuterGlowBitmapEffect GlowColor="PaleGreen" GlowSize="3"></OuterGlowBitmapEffect>
+				</BitmapEffectGroup>
+			</Setter.Value>
+		</Setter>
+		<Setter Property="FontSize" Value="18"></Setter>
+		<Setter Property="Background">
+			<Setter.Value>
+				<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+					<GradientStop Color="#FFE5E7FA"/>
+					<GradientStop Color="#FF747C8D" Offset="0.5"/>
+					<GradientStop Color="#FF000000" Offset="0.5"/>
+					<GradientStop Color="#FF0F0F0F" Offset="1"/>
+				</LinearGradientBrush>
+			</Setter.Value>
+		</Setter>
+		<Style.Triggers>
+			<Trigger Property="IsPressed" Value="True">
+				<Setter Property="BitmapEffect">
+					<Setter.Value>
+						<OuterGlowBitmapEffect GlowColor="Red" GlowSize="4"/>
+					</Setter.Value>
+				</Setter>
+			</Trigger>
+		</Style.Triggers>
+	</Style>-->
+
+	<Style TargetType="{x:Type StatusBar}">
+        <Setter Property="Background" Value="#3C3324" />
+		<Setter Property="Foreground" Value="WhiteSmoke" />
+		<Setter Property="VerticalAlignment" Value="Bottom" />
+		<Setter Property="BorderBrush" Value="Transparent" />
+		<Setter Property="BorderThickness" Value="0" />
+	</Style>
+
+</ResourceDictionary>

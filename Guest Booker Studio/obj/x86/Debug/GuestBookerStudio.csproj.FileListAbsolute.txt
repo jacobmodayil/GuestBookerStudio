@@ -1,0 +1,29 @@
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\bin\Debug\Guest Booker Studio.exe
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\bin\Debug\Guest Booker Studio.pdb
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\bin\Debug\AvalonDock.dll
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\bin\Debug\AvalonDock.Themes.dll
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\MenuControl.baml
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\ToolBarControl.baml
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Themes\BookerStudioDefaultTheme\GuestBookerStudioDefaultTheme.baml
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Themes\BookerStudioDefaultTheme\Stylesheets\ButtonStyles.baml
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Themes\BookerStudioDefaultTheme\Stylesheets\DataGridStyles.baml
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Themes\BookerStudioDefaultTheme\Stylesheets\GenericStyles.baml
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Themes\BookerStudioDefaultTheme\Stylesheets\MenuStyles.baml
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Themes\BookerStudioDefaultTheme\Stylesheets\ScrollBarStyles.baml
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Themes\BookerStudioDefaultTheme\Stylesheets\TabStyles.baml
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\App.baml
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\MenuControl.g.cs
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\ToolBarControl.g.cs
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\App.g.cs
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Guest Booker Studio_MarkupCompile.cache
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Guest Booker Studio_MarkupCompile.lref
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\MainWindow.baml
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Guest Booker Studio.g.resources
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Guest_Booker_Studio.Properties.Resources.resources
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Guest Booker Studio.exe
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Guest Booker Studio.pdb

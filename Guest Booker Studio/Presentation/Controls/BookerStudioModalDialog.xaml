@@ -1,0 +1,163 @@
+﻿<UserControl x:Class="Guest_Booker_Studio.Presentation.Controls.BookerStudioModalDialog"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="550">
+    <Grid DataContext="{Binding AddEditAttribute,Mode=TwoWay}">
+        <Border Background="#90EEEEEE" Visibility="{Binding Visibility}" CornerRadius="6">
+            <Border BorderBrush="Black" BorderThickness="1" x:Name="ModalBorder"
+					CornerRadius="6" VerticalAlignment="Center" Background="#FFF"
+					HorizontalAlignment="Center">
+                <!--x:Name="ModalBorder" is mandatory-->
+                <Border.BitmapEffect>
+                    <DropShadowBitmapEffect Color="Black" Opacity="0.5" Direction="270" ShadowDepth="0.7" />
+                </Border.BitmapEffect>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Border Background="#404040" Padding="10, 3, 3, 3">
+                        <Grid Grid.Row="0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"  />
+                                <ColumnDefinition Width="22" />
+                            </Grid.ColumnDefinitions>
+                            <Label Name="addattributelabel" Content="Add New Attribute" 
+								   Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Center"
+								   Foreground="White" FontFamily="Calibri" FontSize="14" FontWeight="DemiBold" FontStretch="SemiExpanded" />
+                            <Button Grid.Column="3" 
+									Background="Transparent" BorderThickness="0" BorderBrush="Transparent"
+									HorizontalAlignment="Stretch" VerticalAlignment="Center" Focusable="False" Padding="2"
+									Name="cmdCancel" ToolTip="Close" >
+                                <Image Source="/Presentation/Resources/Images/close.gif" />
+                            </Button>
+                        </Grid>
+                    </Border>
+                    <Grid Grid.Row="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="30" />
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="50"/>
+                        </Grid.RowDefinitions>
+                        <Grid Name="grdNewAttribute" Grid.Row="1">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="35" />
+                                <RowDefinition Height="35" />
+                                <RowDefinition Height="30" />
+                                <RowDefinition Height="30"/>
+                                <RowDefinition Height="30"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="80" />
+                                <ColumnDefinition Width="180" />
+                                <ColumnDefinition Width="80" />
+                                <ColumnDefinition Width="180" />
+                            </Grid.ColumnDefinitions>
+
+                            <Label  Grid.Row="0" Grid.Column="0" Content="_Name" Name="lblAttributeName" />
+                            <TextBox  Grid.Row="0"  Grid.Column="1" Name="txtAttributeName">
+                                <TextBox.Text>
+                                    <Binding Path="Name" Mode="TwoWay">
+                                        <!--<Binding.ValidationRules>
+										<c:NamePropertyValidation/>
+									</Binding.ValidationRules>-->
+                                    </Binding>
+                                </TextBox.Text>
+                            </TextBox>
+
+                            <Label  Grid.Row="0" Grid.Column="2" Content="_Label" Name="lblAttributeLabel" />
+                            <TextBox  Grid.Row="0" Grid.Column="3" Name="txtAttributeLabel" >
+                                <TextBox.Text>
+                                    <Binding Path="Label" Mode="TwoWay">
+                                        <!--<Binding.ValidationRules>
+										<c:NamePropertyValidation/>
+									</Binding.ValidationRules>-->
+                                    </Binding>
+                                </TextBox.Text>
+                            </TextBox>
+
+                            <Label  Grid.Row="1" Grid.Column="0" Content="_Type" Name="lblSimpleTypes" />
+                            <ComboBox Grid.ColumnSpan="2" Grid.Row="1" Grid.Column="1" Name="cboSimpleTypes"  SelectedItem="{Binding Path=Type, Mode=TwoWay}" />
+
+                            <Label Grid.Row="1"   Grid.Column="2" Content="Description" Name="lblDescription"/>
+                            <TextBox Grid.Row="1" Grid.Column="3" Grid.RowSpan="2"  TextWrapping="WrapWithOverflow" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" Text="{Binding Path=Description,Mode=TwoWay}"  AcceptsReturn="True" Height="60"  Margin="0,5,5,0"/>
+
+
+                            <Label  Grid.Row="2" Grid.Column="0" Content="Nullable" Name="lblEdit" />
+                            <CheckBox Grid.Row="2" Grid.Column="1"  IsChecked="{Binding Nullable, Mode=TwoWay}" Name="chkNullable"  />
+
+                            <Label Grid.Row="3" Grid.Column="0" Content="Visible" Name="lblVisible"/>
+                            <CheckBox Grid.Row="3" Grid.Column="1" IsChecked="{Binding Path=Visible,Mode=TwoWay}" Name="chkVisible"/>
+
+                            <Label Grid.Row="3" Grid.Column="2" Content="Enabled" Name="lblEnable"/>
+                            <CheckBox Grid.Row="3" Grid.Column="3" IsChecked="{Binding Path=Enabled,Mode=TwoWay}" Name="chkEnabled" />
+
+                            <Label Grid.Row="4" Grid.Column="0" Content="Required" Name="lblRequired"/>
+                            <CheckBox Grid.Row="4" Grid.Column="1" IsChecked="{Binding Path=Required,Mode=TwoWay}" Name="chkRequired"/>
+
+                            <Grid.Resources>
+                                <Style TargetType="{x:Type Label}">
+                                    <Setter Property="HorizontalAlignment" Value="Right" />
+                                    <Setter Property="VerticalAlignment" Value="Center" />
+                                    <Setter Property="Margin" Value="0, 0, 5, 0" />
+                                </Style>
+                                <Style TargetType="{x:Type TextBox}">
+                                    <Setter Property="HorizontalAlignment" Value="Left" />
+                                    <Setter Property="VerticalAlignment" Value="Center" />
+                                    <Setter Property="Width" Value="150" />
+                                    <Setter Property="Height" Value="25" />
+                                    <Setter Property="Margin" Value="0,0,0,5" />
+                                </Style>
+                                <Style TargetType="{x:Type ComboBox}">
+                                    <Setter Property="HorizontalAlignment" Value="Left" />
+                                    <Setter Property="VerticalAlignment" Value="Center" />
+                                    <Setter Property="Width" Value="150" />
+                                    <Setter Property="Height" Value="25" />
+                                    <Setter Property="VerticalAlignment" Value="Center" />
+                                </Style>
+                                <Style TargetType="{x:Type CheckBox}">
+                                    <Setter Property="HorizontalAlignment" Value="Left" />
+                                    <Setter Property="VerticalAlignment" Value="Center" />
+                                    <Setter Property="Margin" Value="0, 0, 0, 0" />
+                                </Style>
+                            </Grid.Resources>
+                        </Grid>
+                        <Grid Grid.Row="2">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="50" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="40" />
+                                <ColumnDefinition Width="40" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="100" />
+                                <ColumnDefinition Width="130" />
+                            </Grid.ColumnDefinitions>
+                            <Button Name="cmdPrev"  Grid.Row="2" Grid.Column="0" Visibility="Hidden" Background="Transparent">
+                                <Image Source="/Presentation/Resources/Images/back.png" Stretch="Uniform"></Image>
+                            </Button>
+                            <Button Name="cmdNext" Grid.Row="2" Grid.Column="1"  Visibility="Hidden" Background="Transparent">
+                                <Image Source="/Presentation/Resources/Images/fwd.png" Stretch="Uniform"></Image>
+                            </Button>
+
+                            <Button Grid.Row="2" Grid.Column="4"  Content=" Save Attribute" Name="cmdSaveAttribute" 
+									Style="{StaticResource GlassButton}" Width="120"/>
+                            <Grid.Resources>
+                                <Style TargetType="{x:Type Button}">
+                                    <Setter Property="HorizontalAlignment" Value="Center" />
+                                    <Setter Property="VerticalAlignment" Value="Bottom" />
+                                    <Setter Property="Width" Value="Auto" />
+                                    <!--<Setter Property="Height" Value="24" />-->
+                                    <Setter Property="Margin" Value="10, 10, 0, 0" />
+                                </Style>
+                            </Grid.Resources>
+                        </Grid>
+                    </Grid>
+                </Grid>
+            </Border>
+        </Border>
+    </Grid>
+</UserControl>

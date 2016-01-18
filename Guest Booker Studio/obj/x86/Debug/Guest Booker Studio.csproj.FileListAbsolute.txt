@@ -1,0 +1,325 @@
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\bin\Debug\Guest Booker Studio.exe.config
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\bin\Debug\Guest Booker Studio.exe
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\bin\Debug\Guest Booker Studio.pdb
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\bin\Debug\AvalonDock.dll
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\bin\Debug\AvalonDock.Themes.dll
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\BookerStudioMessageBox.baml
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\MenuControl.baml
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\ToolBarControl.baml
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Themes\BookerStudioDefaultTheme\GuestBookerStudioDefaultTheme.baml
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Themes\BookerStudioDefaultTheme\Stylesheets\ButtonStyles.baml
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Themes\BookerStudioDefaultTheme\Stylesheets\DataGridStyles.baml
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Themes\BookerStudioDefaultTheme\Stylesheets\GenericStyles.baml
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Themes\BookerStudioDefaultTheme\Stylesheets\MenuStyles.baml
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Themes\BookerStudioDefaultTheme\Stylesheets\ScrollBarStyles.baml
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Themes\BookerStudioDefaultTheme\Stylesheets\TabStyles.baml
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\App.baml
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\BookerStudioMessageBox.g.cs
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\MenuControl.g.cs
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\ToolBarControl.g.cs
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\App.g.cs
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Guest Booker Studio_MarkupCompile.cache
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Guest Booker Studio_MarkupCompile.lref
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\MainWindow.baml
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Guest Booker Studio.g.resources
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Guest_Booker_Studio.Properties.Resources.resources
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Guest Booker Studio.exe
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Guest Booker Studio.pdb
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\bin\Debug\Guest Booker Studio.exe.manifest
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\bin\Debug\Guest Booker Studio.application
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Guest Booker Studio.exe.manifest
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Guest Booker Studio.application
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\bin\Debug\ECCCalendarControlLibrary.dll
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\bin\Debug\ECCCalendarControlLibrary.pdb
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\CustomerExplorerControl.g.cs
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\CustomerExplorerControl.baml
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\DayBoxControl.baml
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\DaysOfWeekControl.baml
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\MonthView.baml
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\CalendarControl.g.cs
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\DayBoxControl.g.cs
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\DaysOfWeekControl.g.cs
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\MonthView.g.cs
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\CalendarControl.baml
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Customer\AddNewCustomerForm.baml
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Generic\InnerWindow.baml
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Entity\AddNewCustomer.baml
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Customer\AddNewCustomerForm.g.cs
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Generic\InnerWindow.g.cs
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Generic\StartPage.g.cs
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Entity\AddNewCustomer.g.cs
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\C#\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Generic\StartPage.baml
+C:\Users\Rohan\Desktop\Guest Booker Studio\Guest Booker Studio\bin\Debug\Guest Booker Studio.exe.config
+C:\Users\Rohan\Desktop\Guest Booker Studio\Guest Booker Studio\bin\Debug\Guest Booker Studio.exe.manifest
+C:\Users\Rohan\Desktop\Guest Booker Studio\Guest Booker Studio\bin\Debug\Guest Booker Studio.application
+C:\Users\Rohan\Desktop\Guest Booker Studio\Guest Booker Studio\bin\Debug\Guest Booker Studio.exe
+C:\Users\Rohan\Desktop\Guest Booker Studio\Guest Booker Studio\bin\Debug\Guest Booker Studio.pdb
+C:\Users\Rohan\Desktop\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Rohan\Desktop\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\BookerStudioModalDialog.baml
+C:\Users\Rohan\Desktop\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Entity\Contact\AddNewContact.baml
+C:\Users\Rohan\Desktop\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Entity\Contact\ContactMainPage.baml
+C:\Users\Rohan\Desktop\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Entity\Contact\DeleteContact.baml
+C:\Users\Rohan\Desktop\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Entity\Contact\ViewAllContacts.baml
+C:\Users\Rohan\Desktop\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Entity\Customer\CustomerMainPage.baml
+C:\Users\Rohan\Desktop\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Entity\Customer\DeleteCustomer.baml
+C:\Users\Rohan\Desktop\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Entity\Customer\ViewAllCustomers.baml
+C:\Users\Rohan\Desktop\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Generic\InnerWindow.baml
+C:\Users\Rohan\Desktop\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\BookerStudioMessageBox.baml
+C:\Users\Rohan\Desktop\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\DayBoxControl.baml
+C:\Users\Rohan\Desktop\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\DaysOfWeekControl.baml
+C:\Users\Rohan\Desktop\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\MonthView.baml
+C:\Users\Rohan\Desktop\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Themes\BookerStudioDefaultTheme\GuestBookerStudioDefaultTheme.baml
+C:\Users\Rohan\Desktop\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Themes\BookerStudioDefaultTheme\Stylesheets\ButtonStyles.baml
+C:\Users\Rohan\Desktop\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Themes\BookerStudioDefaultTheme\Stylesheets\DataGridStyles.baml
+C:\Users\Rohan\Desktop\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Themes\BookerStudioDefaultTheme\Stylesheets\GenericStyles.baml
+C:\Users\Rohan\Desktop\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Themes\BookerStudioDefaultTheme\Stylesheets\MenuStyles.baml
+C:\Users\Rohan\Desktop\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Themes\BookerStudioDefaultTheme\Stylesheets\ScrollBarStyles.baml
+C:\Users\Rohan\Desktop\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Themes\BookerStudioDefaultTheme\Stylesheets\TabStyles.baml
+C:\Users\Rohan\Desktop\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\App.baml
+C:\Users\Rohan\Desktop\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Rohan\Desktop\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\BookerStudioModalDialog.g.cs
+C:\Users\Rohan\Desktop\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Entity\Contact\AddNewContact.g.cs
+C:\Users\Rohan\Desktop\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Entity\Contact\ContactMainPage.g.cs
+C:\Users\Rohan\Desktop\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Entity\Contact\DeleteContact.g.cs
+C:\Users\Rohan\Desktop\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Entity\Contact\ViewAllContacts.g.cs
+C:\Users\Rohan\Desktop\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Entity\Customer\CustomerMainPage.g.cs
+C:\Users\Rohan\Desktop\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Entity\Customer\DeleteCustomer.g.cs
+C:\Users\Rohan\Desktop\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Entity\Customer\ViewAllCustomers.g.cs
+C:\Users\Rohan\Desktop\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Generic\InnerWindow.g.cs
+C:\Users\Rohan\Desktop\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Generic\StartPage.g.cs
+C:\Users\Rohan\Desktop\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\BookerStudioMessageBox.g.cs
+C:\Users\Rohan\Desktop\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\CalendarControl.g.cs
+C:\Users\Rohan\Desktop\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\CustomerExplorerControl.g.cs
+C:\Users\Rohan\Desktop\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\DayBoxControl.g.cs
+C:\Users\Rohan\Desktop\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\DaysOfWeekControl.g.cs
+C:\Users\Rohan\Desktop\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\MenuControl.g.cs
+C:\Users\Rohan\Desktop\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\MonthView.g.cs
+C:\Users\Rohan\Desktop\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\ToolBarControl.g.cs
+C:\Users\Rohan\Desktop\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Entity\Customer\AddNewCustomer.g.cs
+C:\Users\Rohan\Desktop\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\App.g.cs
+C:\Users\Rohan\Desktop\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Rohan\Desktop\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Guest Booker Studio_MarkupCompile.cache
+C:\Users\Rohan\Desktop\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Guest Booker Studio_MarkupCompile.lref
+C:\Users\Rohan\Desktop\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\MainWindow.baml
+C:\Users\Rohan\Desktop\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Generic\StartPage.baml
+C:\Users\Rohan\Desktop\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\CalendarControl.baml
+C:\Users\Rohan\Desktop\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\CustomerExplorerControl.baml
+C:\Users\Rohan\Desktop\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\MenuControl.baml
+C:\Users\Rohan\Desktop\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\ToolBarControl.baml
+C:\Users\Rohan\Desktop\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Entity\Customer\AddNewCustomer.baml
+C:\Users\Rohan\Desktop\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Guest Booker Studio.g.resources
+C:\Users\Rohan\Desktop\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Guest_Booker_Studio.Properties.Resources.resources
+C:\Users\Rohan\Desktop\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Rohan\Desktop\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Rohan\Desktop\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Guest Booker Studio.exe.manifest
+C:\Users\Rohan\Desktop\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Guest Booker Studio.application
+C:\Users\Rohan\Desktop\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Guest Booker Studio.exe
+C:\Users\Rohan\Desktop\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Guest Booker Studio.pdb
+D:\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\DayBoxAppointmentControl.baml
+D:\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Entity\Contact\AddNewContact.baml
+D:\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Entity\Contact\ContactMainPage.baml
+D:\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Entity\Contact\DeleteContact.baml
+D:\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Entity\Contact\ViewAllContacts.baml
+D:\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Entity\Customer\CustomerMainPage.baml
+D:\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Entity\Customer\DeleteCustomer.baml
+D:\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Entity\Customer\ViewAllCustomers.baml
+D:\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Generic\InnerWindow.baml
+D:\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\BookerStudioMessageBox.baml
+D:\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\DayBoxControl.baml
+D:\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\DaysOfWeekControl.baml
+D:\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\MonthView.baml
+D:\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Themes\BookerStudioDefaultTheme\GuestBookerStudioDefaultTheme.baml
+D:\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Themes\BookerStudioDefaultTheme\Stylesheets\ButtonStyles.baml
+D:\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Themes\BookerStudioDefaultTheme\Stylesheets\DataGridStyles.baml
+D:\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Themes\BookerStudioDefaultTheme\Stylesheets\GenericStyles.baml
+D:\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Themes\BookerStudioDefaultTheme\Stylesheets\MenuStyles.baml
+D:\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Themes\BookerStudioDefaultTheme\Stylesheets\ScrollBarStyles.baml
+D:\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Themes\BookerStudioDefaultTheme\Stylesheets\TabStyles.baml
+D:\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\App.baml
+D:\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\MainWindow.g.cs
+D:\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\DayBoxAppointmentControl.g.cs
+D:\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Entity\Contact\AddNewContact.g.cs
+D:\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Entity\Contact\ContactMainPage.g.cs
+D:\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Entity\Contact\DeleteContact.g.cs
+D:\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Entity\Contact\ViewAllContacts.g.cs
+D:\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Entity\Customer\CustomerMainPage.g.cs
+D:\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Entity\Customer\DeleteCustomer.g.cs
+D:\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Entity\Customer\ViewAllCustomers.g.cs
+D:\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Generic\InnerWindow.g.cs
+D:\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Generic\StartPage.g.cs
+D:\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\BookerStudioMessageBox.g.cs
+D:\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\CalendarControl.g.cs
+D:\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\CustomerExplorerControl.g.cs
+D:\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\DayBoxControl.g.cs
+D:\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\DaysOfWeekControl.g.cs
+D:\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\MenuControl.g.cs
+D:\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\MonthView.g.cs
+D:\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\ToolBarControl.g.cs
+D:\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Entity\Customer\AddNewCustomer.g.cs
+D:\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\App.g.cs
+D:\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Guest Booker Studio_MarkupCompile.cache
+D:\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Guest Booker Studio_MarkupCompile.lref
+D:\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Guest Booker Studio.pdb
+D:\Guest Booker Studio\Guest Booker Studio\bin\Debug\Guest Booker Studio.exe.config
+D:\Guest Booker Studio\Guest Booker Studio\bin\Debug\Guest Booker Studio.exe.manifest
+D:\Guest Booker Studio\Guest Booker Studio\bin\Debug\Guest Booker Studio.application
+D:\Guest Booker Studio\Guest Booker Studio\bin\Debug\Guest Booker Studio.exe
+D:\Guest Booker Studio\Guest Booker Studio\bin\Debug\Guest Booker Studio.pdb
+D:\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\MainWindow.baml
+D:\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Generic\StartPage.baml
+D:\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\CalendarControl.baml
+D:\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\CustomerExplorerControl.baml
+D:\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\MenuControl.baml
+D:\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\ToolBarControl.baml
+D:\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Entity\Customer\AddNewCustomer.baml
+D:\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Guest Booker Studio.g.resources
+D:\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Guest_Booker_Studio.Properties.Resources.resources
+D:\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Guest Booker Studio.exe.manifest
+D:\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Guest Booker Studio.application
+D:\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Guest Booker Studio.exe
+D:\My Work\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\My Work\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\DayBoxAppointmentControl.baml
+D:\My Work\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Entity\Contact\AddNewContact.baml
+D:\My Work\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Entity\Contact\ContactMainPage.baml
+D:\My Work\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Entity\Contact\DeleteContact.baml
+D:\My Work\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Entity\Contact\ViewAllContacts.baml
+D:\My Work\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Entity\Customer\CustomerMainPage.baml
+D:\My Work\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Entity\Customer\DeleteCustomer.baml
+D:\My Work\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Entity\Customer\ViewAllCustomers.baml
+D:\My Work\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Generic\InnerWindow.baml
+D:\My Work\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\BookerStudioMessageBox.baml
+D:\My Work\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\DayBoxControl.baml
+D:\My Work\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\DaysOfWeekControl.baml
+D:\My Work\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\MonthView.baml
+D:\My Work\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Themes\BookerStudioDefaultTheme\GuestBookerStudioDefaultTheme.baml
+D:\My Work\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Themes\BookerStudioDefaultTheme\Stylesheets\ButtonStyles.baml
+D:\My Work\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Themes\BookerStudioDefaultTheme\Stylesheets\DataGridStyles.baml
+D:\My Work\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Themes\BookerStudioDefaultTheme\Stylesheets\GenericStyles.baml
+D:\My Work\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Themes\BookerStudioDefaultTheme\Stylesheets\MenuStyles.baml
+D:\My Work\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Themes\BookerStudioDefaultTheme\Stylesheets\ScrollBarStyles.baml
+D:\My Work\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Themes\BookerStudioDefaultTheme\Stylesheets\TabStyles.baml
+D:\My Work\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\App.baml
+D:\My Work\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\MainWindow.g.cs
+D:\My Work\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\DayBoxAppointmentControl.g.cs
+D:\My Work\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Entity\Contact\AddNewContact.g.cs
+D:\My Work\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Entity\Contact\ContactMainPage.g.cs
+D:\My Work\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Entity\Contact\DeleteContact.g.cs
+D:\My Work\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Entity\Contact\ViewAllContacts.g.cs
+D:\My Work\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Entity\Customer\CustomerMainPage.g.cs
+D:\My Work\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Entity\Customer\DeleteCustomer.g.cs
+D:\My Work\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Entity\Customer\ViewAllCustomers.g.cs
+D:\My Work\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Generic\InnerWindow.g.cs
+D:\My Work\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Generic\StartPage.g.cs
+D:\My Work\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\BookerStudioMessageBox.g.cs
+D:\My Work\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\CalendarControl.g.cs
+D:\My Work\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\CustomerExplorerControl.g.cs
+D:\My Work\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\DayBoxControl.g.cs
+D:\My Work\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\DaysOfWeekControl.g.cs
+D:\My Work\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\MenuControl.g.cs
+D:\My Work\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\MonthView.g.cs
+D:\My Work\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\ToolBarControl.g.cs
+D:\My Work\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Entity\Customer\AddNewCustomer.g.cs
+D:\My Work\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\App.g.cs
+D:\My Work\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Guest Booker Studio_Content.g.cs
+D:\My Work\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+D:\My Work\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Guest Booker Studio_MarkupCompile.cache
+D:\My Work\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Guest Booker Studio_MarkupCompile.lref
+D:\My Work\Guest Booker Studio\Guest Booker Studio\bin\Debug\GuestBookerSample.mdf
+D:\My Work\Guest Booker Studio\Guest Booker Studio\bin\Debug\GuestBookerSample_log.ldf
+D:\My Work\Guest Booker Studio\Guest Booker Studio\bin\Debug\Guest Booker Studio.exe.config
+D:\My Work\Guest Booker Studio\Guest Booker Studio\bin\Debug\Guest Booker Studio.exe.manifest
+D:\My Work\Guest Booker Studio\Guest Booker Studio\bin\Debug\Guest Booker Studio.application
+D:\My Work\Guest Booker Studio\Guest Booker Studio\bin\Debug\Guest Booker Studio.exe
+D:\My Work\Guest Booker Studio\Guest Booker Studio\bin\Debug\Guest Booker Studio.pdb
+D:\My Work\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\MainWindow.baml
+D:\My Work\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Generic\StartPage.baml
+D:\My Work\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\CalendarControl.baml
+D:\My Work\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\CustomerExplorerControl.baml
+D:\My Work\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\MenuControl.baml
+D:\My Work\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\ToolBarControl.baml
+D:\My Work\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Entity\Customer\AddNewCustomer.baml
+D:\My Work\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Guest Booker Studio.g.resources
+D:\My Work\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Guest_Booker_Studio.Properties.Resources.resources
+D:\My Work\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\My Work\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\My Work\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Guest Booker Studio.exe.manifest
+D:\My Work\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Guest Booker Studio.application
+D:\My Work\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Guest Booker Studio.exe
+D:\My Work\Guest Booker Studio\Guest Booker Studio\obj\x86\Debug\Guest Booker Studio.pdb
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\bin\Debug\Guest Booker Studio.exe.config
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\obj\x86\Debug\Guest Booker Studio.exe
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\obj\x86\Debug\Guest Booker Studio.pdb
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\bin\Debug\GuestBookerSample.mdf
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\bin\Debug\GuestBookerSample_log.ldf
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\bin\Debug\Guest Booker Studio.exe.manifest
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\bin\Debug\Guest Booker Studio.application
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\bin\Debug\Guest Booker Studio.exe
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\bin\Debug\Guest Booker Studio.pdb
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\obj\x86\Debug\Guest Booker Studio.csprojResolveAssemblyReference.cache
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\DayBoxAppointmentControl.baml
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Entity\Contact\AddNewContact.baml
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Entity\Contact\ContactMainPage.baml
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Entity\Contact\DeleteContact.baml
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Entity\Contact\ViewAllContacts.baml
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Entity\Customer\CustomerMainPage.baml
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Entity\Customer\DeleteCustomer.baml
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Entity\Customer\ViewAllCustomers.baml
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Generic\InnerWindow.baml
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\BookerStudioMessageBox.baml
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\DayBoxControl.baml
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\DaysOfWeekControl.baml
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\MonthView.baml
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\obj\x86\Debug\Presentation\Themes\BookerStudioDefaultTheme\GuestBookerStudioDefaultTheme.baml
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\obj\x86\Debug\Presentation\Themes\BookerStudioDefaultTheme\Stylesheets\ButtonStyles.baml
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\obj\x86\Debug\Presentation\Themes\BookerStudioDefaultTheme\Stylesheets\DataGridStyles.baml
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\obj\x86\Debug\Presentation\Themes\BookerStudioDefaultTheme\Stylesheets\GenericStyles.baml
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\obj\x86\Debug\Presentation\Themes\BookerStudioDefaultTheme\Stylesheets\MenuStyles.baml
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\obj\x86\Debug\Presentation\Themes\BookerStudioDefaultTheme\Stylesheets\ScrollBarStyles.baml
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\obj\x86\Debug\Presentation\Themes\BookerStudioDefaultTheme\Stylesheets\TabStyles.baml
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\obj\x86\Debug\App.baml
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\obj\x86\Debug\MainWindow.g.cs
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\DayBoxAppointmentControl.g.cs
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Entity\Contact\AddNewContact.g.cs
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Entity\Contact\ContactMainPage.g.cs
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Entity\Contact\DeleteContact.g.cs
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Entity\Contact\ViewAllContacts.g.cs
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Entity\Customer\CustomerMainPage.g.cs
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Entity\Customer\DeleteCustomer.g.cs
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Entity\Customer\ViewAllCustomers.g.cs
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Generic\InnerWindow.g.cs
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Generic\StartPage.g.cs
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\BookerStudioMessageBox.g.cs
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\CalendarControl.g.cs
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\CustomerExplorerControl.g.cs
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\DayBoxControl.g.cs
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\DaysOfWeekControl.g.cs
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\MenuControl.g.cs
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\MonthView.g.cs
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\ToolBarControl.g.cs
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Entity\Customer\AddNewCustomer.g.cs
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\obj\x86\Debug\App.g.cs
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\obj\x86\Debug\Guest Booker Studio_Content.g.cs
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\obj\x86\Debug\Guest Booker Studio_MarkupCompile.cache
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\obj\x86\Debug\Guest Booker Studio_MarkupCompile.lref
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\obj\x86\Debug\MainWindow.baml
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Generic\StartPage.baml
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\CalendarControl.baml
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\CustomerExplorerControl.baml
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\MenuControl.baml
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\obj\x86\Debug\Presentation\Controls\ToolBarControl.baml
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\obj\x86\Debug\Presentation\Pages\Entity\Customer\AddNewCustomer.baml
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\obj\x86\Debug\Guest Booker Studio.g.resources
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\obj\x86\Debug\Guest_Booker_Studio.Properties.Resources.resources
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\obj\x86\Debug\Guest Booker Studio.csproj.GenerateResource.Cache
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\obj\x86\Debug\Guest Booker Studio.exe.manifest
+C:\Old Laptop Data\Guest Booker Studio - V3\Guest Booker Studio\obj\x86\Debug\Guest Booker Studio.application

@@ -1,0 +1,12 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="Stylesheets/GenericStyles.xaml"/>
+        <ResourceDictionary Source="Stylesheets/ScrollBarStyles.xaml"/>
+        <ResourceDictionary Source="Stylesheets/MenuStyles.xaml"/>
+        <ResourceDictionary Source="Stylesheets/TabStyles.xaml"/>
+        <ResourceDictionary Source="Stylesheets/DataGridStyles.xaml"/>
+        <ResourceDictionary Source="Stylesheets/ButtonStyles.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+
+</ResourceDictionary>

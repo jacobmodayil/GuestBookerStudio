@@ -1,0 +1,489 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{82DCD120-4DC9-4400-AE1E-769CE219C9A9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Guest_Booker_Studio</RootNamespace>
+    <AssemblyName>Guest Booker Studio</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>D:\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>E8BE2B5B06A8E6390CED6E83C18375D171D777EA</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Guest Booker Studio_1_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Microsoft-Excel-n.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AvalonDock">
+      <HintPath>..\..\..\ECCGuestBooker\ECCGuestBooker\Resources\AvalonDock.dll</HintPath>
+    </Reference>
+    <Reference Include="AvalonDock.Themes">
+      <HintPath>..\..\..\ECCGuestBooker\ECCGuestBooker\Resources\AvalonDock.Themes.dll</HintPath>
+    </Reference>
+    <Reference Include="ECCCalendarControlLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\ECCCalendarControlLibrary\ECCCalendarControlLibrary\bin\Debug\ECCCalendarControlLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\Windows\assembly\GAC_MSIL\Microsoft.Office.Interop.Excel\15.0.0.0__71e9bce111e9429c\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Application\Commands\ContactFormCommands.cs" />
+    <Compile Include="Application\Commands\CustomerFormCommands.cs" />
+    <Compile Include="Application\Commands\TreeItemDoubleClick.cs" />
+    <Compile Include="Application\Commands\WindowCommands.cs" />
+    <Compile Include="Excel Generation\GetGridValues.cs" />
+    <Compile Include="Excel Generation\Manager.cs" />
+    <Compile Include="Model\GuestBookerStudioRepository.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GuestBookerStudioRepository.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Model\StudioRepository.cs" />
+    <Compile Include="Presentation\Controls\DayBoxAppointmentControl.xaml.cs">
+      <DependentUpon>DayBoxAppointmentControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\Pages\Entity\Contact\AddNewContact.xaml.cs">
+      <DependentUpon>AddNewContact.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\Pages\Entity\Contact\ContactMainPage.xaml.cs">
+      <DependentUpon>ContactMainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\Pages\Entity\Contact\DeleteContact.xaml.cs">
+      <DependentUpon>DeleteContact.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\Pages\Entity\Contact\ViewAllContacts.xaml.cs">
+      <DependentUpon>ViewAllContacts.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\Pages\Entity\Customer\CustomerMainPage.xaml.cs">
+      <DependentUpon>CustomerMainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\Pages\Entity\Customer\DeleteCustomer.xaml.cs">
+      <DependentUpon>DeleteCustomer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\Pages\Entity\Customer\ViewAllCustomers.xaml.cs">
+      <DependentUpon>ViewAllCustomers.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Validations\Validations.cs" />
+    <Compile Include="Validations\ValidationsStructure.cs" />
+    <Compile Include="ViewModel\BaseFormViewModel.cs" />
+    <Compile Include="ViewModel\ContactFormViewModel.cs" />
+    <Compile Include="ViewModel\CustomerFormViewModel.cs" />
+    <Compile Include="ViewModel\ECCAssetsStructure.cs" />
+    <Compile Include="ViewModel\StartPageViewModel.cs" />
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="Presentation\Controls\DayBoxAppointmentControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Presentation\Pages\Entity\Contact\AddNewContact.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Presentation\Pages\Entity\Contact\ContactMainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Presentation\Pages\Entity\Contact\DeleteContact.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Presentation\Pages\Entity\Contact\ViewAllContacts.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Presentation\Pages\Entity\Customer\CustomerMainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Presentation\Pages\Entity\Customer\DeleteCustomer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Presentation\Pages\Entity\Customer\ViewAllCustomers.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Presentation\Pages\Generic\InnerWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Presentation\Pages\Generic\StartPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Presentation\Controls\BookerStudioMessageBox.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Presentation\Controls\CalendarControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Presentation\Controls\CustomerExplorerControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Presentation\Controls\DayBoxControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Presentation\Controls\DaysOfWeekControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Presentation\Controls\MenuControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Presentation\Controls\MonthView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Presentation\Controls\ToolBarControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Presentation\Pages\Entity\Customer\AddNewCustomer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Presentation\Themes\BookerStudioDefaultTheme\GuestBookerStudioDefaultTheme.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Presentation\Themes\BookerStudioDefaultTheme\Stylesheets\ButtonStyles.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Presentation\Themes\BookerStudioDefaultTheme\Stylesheets\DataGridStyles.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Presentation\Themes\BookerStudioDefaultTheme\Stylesheets\GenericStyles.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Presentation\Themes\BookerStudioDefaultTheme\Stylesheets\MenuStyles.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Presentation\Themes\BookerStudioDefaultTheme\Stylesheets\ScrollBarStyles.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Presentation\Themes\BookerStudioDefaultTheme\Stylesheets\TabStyles.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Presentation\Pages\Generic\InnerWindow.xaml.cs">
+      <DependentUpon>InnerWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\Pages\Generic\StartPage.xaml.cs">
+      <DependentUpon>StartPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\Controls\BookerStudioMessageBox.xaml.cs">
+      <DependentUpon>BookerStudioMessageBox.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Presentation\Controls\CalendarControl.xaml.cs">
+      <DependentUpon>CalendarControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\Controls\CustomerExplorerControl.xaml.cs">
+      <DependentUpon>CustomerExplorerControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\Controls\DayBoxControl.xaml.cs">
+      <DependentUpon>DayBoxControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\Controls\DaysOfWeekControl.xaml.cs">
+      <DependentUpon>DaysOfWeekControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\Controls\MenuControl.xaml.cs">
+      <DependentUpon>MenuControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\Controls\MonthView.xaml.cs">
+      <DependentUpon>MonthView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\Controls\ToolBarControl.xaml.cs">
+      <DependentUpon>ToolBarControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\Pages\Entity\Customer\AddNewCustomer.xaml.cs">
+      <DependentUpon>AddNewCustomer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Guest Booker Studio_1_TemporaryKey.pfx" />
+    <None Include="Model\GuestBookerStudioRepository.dbml.layout">
+      <DependentUpon>GuestBookerStudioRepository.dbml</DependentUpon>
+    </None>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Guest Booker Studio_TemporaryKey.pfx" />
+    <None Include="Model\GuestBookerStudioRepository.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>GuestBookerStudioRepository.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Presentation\Resources\Images\actionlog.png" />
+    <Resource Include="Presentation\Resources\Images\addgreen.png" />
+    <Resource Include="Presentation\Resources\Images\AppStudio.ico" />
+    <Resource Include="Presentation\Resources\Images\ascend.png" />
+    <Resource Include="Presentation\Resources\Images\attention.png" />
+    <Resource Include="Presentation\Resources\Images\attribute.png" />
+    <Resource Include="Presentation\Resources\Images\back.png" />
+    <Resource Include="Presentation\Resources\Images\calc.png" />
+    <Resource Include="Presentation\Resources\Images\category.png" />
+    <Resource Include="Presentation\Resources\Images\close.gif" />
+    <Resource Include="Presentation\Resources\Images\complex-types.png" />
+    <Resource Include="Presentation\Resources\Images\cross-reference.png" />
+    <Resource Include="Presentation\Resources\Images\datarows.png" />
+    <Resource Include="Presentation\Resources\Images\doc_properties.png" />
+    <Resource Include="Presentation\Resources\Images\edit_b.png" />
+    <Resource Include="Presentation\Resources\Images\entities.png" />
+    <Resource Include="Presentation\Resources\Images\entity-h.jpeg" />
+    <Resource Include="Presentation\Resources\Images\entity.jpeg" />
+    <Resource Include="Presentation\Resources\Images\EnumType.png" />
+    <Resource Include="Presentation\Resources\Images\fwd.png" />
+    <Resource Include="Presentation\Resources\Images\info.png" />
+    <Resource Include="Presentation\Resources\Images\inputfield.png" />
+    <Resource Include="Presentation\Resources\Images\inputrule.png" />
+    <Resource Include="Presentation\Resources\Images\interaction.png" />
+    <Resource Include="Presentation\Resources\Images\leasewave.bmp" />
+    <Resource Include="Presentation\Resources\Images\LeaseWave.gif" />
+    <Resource Include="Presentation\Resources\Images\magnify.png" />
+    <Resource Include="Presentation\Resources\Images\method.gif" />
+    <Resource Include="Presentation\Resources\Images\minus.gif" />
+    <Resource Include="Presentation\Resources\Images\next.GIF" />
+    <Resource Include="Presentation\Resources\Images\node-select.png" />
+    <Resource Include="Presentation\Resources\Images\Odessa Logo.GIF" />
+    <Resource Include="Presentation\Resources\Images\plus.gif" />
+    <Resource Include="Presentation\Resources\Images\Prop.gif" />
+    <Resource Include="Presentation\Resources\Images\redo.png" />
+    <Resource Include="Presentation\Resources\Images\refer.png" />
+    <Resource Include="Presentation\Resources\Images\run.png" />
+    <Resource Include="Presentation\Resources\Images\Run_.png" />
+    <Resource Include="Presentation\Resources\Images\save.png" />
+    <Resource Include="Presentation\Resources\Images\save_all.png" />
+    <Resource Include="Presentation\Resources\Images\Search.png" />
+    <Resource Include="Presentation\Resources\Images\selector.png" />
+    <Resource Include="Presentation\Resources\Images\settings.png" />
+    <Resource Include="Presentation\Resources\Images\simple-types.png" />
+    <Resource Include="Presentation\Resources\Images\thumbs.gif" />
+    <Resource Include="Presentation\Resources\Images\tick.gif" />
+    <Resource Include="Presentation\Resources\Images\tick2.png" />
+    <Resource Include="Presentation\Resources\Images\undo.png" />
+    <Resource Include="Presentation\Resources\Images\white_edit.png" />
+    <Resource Include="Presentation\Resources\Images\window-restore.png" />
+    <Resource Include="Presentation\Resources\Images\XMLFileHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Presentation\Resources\Images\StartScreenFinal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Sql.Server.Express.10.0">
+      <Visible>False</Visible>
+      <ProductName>SQL Server 2008 Express</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Presentation\Resources\Images\Microsoft-Excel-n-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Microsoft-Excel-n.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Presentation\Resources\Images\Zoom_in32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Presentation\Resources\Images\Refresh16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Presentation\Resources\Images\Add_user16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Presentation\Resources\Images\Delete_user16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Presentation\Resources\Images\User16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Presentation\Resources\Images\Billboard24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Presentation\Resources\Images\Microsoft-Excel-2010.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Presentation\Resources\Images\Faq48.png" />
+    <Resource Include="Presentation\Resources\Images\File_add16.png" />
+    <Resource Include="Presentation\Resources\Images\File_delete16.png" />
+    <Resource Include="Presentation\Resources\Images\File_info16.png" />
+    <Resource Include="Presentation\Resources\Images\Info48.png" />
+    <Resource Include="Presentation\Resources\Images\Search24.png" />
+    <Resource Include="Presentation\Resources\Images\Star_full24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Presentation\Resources\Images\excel logo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Presentation\Resources\Images\final start draft.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Presentation\Resources\Images\Delete16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="GuestBookerSample.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GuestBookerSample_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>GuestBookerSample.mdf</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

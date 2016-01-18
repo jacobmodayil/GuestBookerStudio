@@ -1,0 +1,96 @@
+﻿<dock:DockableContent x:Class="Guest_Booker_Studio.Presentation.Controls.CustomerExplorerControl"
+			 xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+			 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+			 xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+			 xmlns:dock="clr-namespace:AvalonDock;assembly=AvalonDock"
+             xmlns:c="clr-namespace:Guest_Booker_Studio.Commands"
+			 xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+			 xmlns:cx="clr-namespace:Guest_Booker_Studio"
+			 xmlns:controls="clr-namespace:Guest_Booker_Studio.Presentation.Controls"
+			 mc:Ignorable="d" 
+			 d:DesignWidth="300" Title="Customer Explorer"
+			 DockableStyle="DockableButNotAutoHidden" 
+			 HorizontalAlignment="Right">
+    <dock:DockableContent.Icon>
+        <BitmapImage UriSource="/Presentation/Resources/Images/Search.png" />
+    </dock:DockableContent.Icon>
+    <Grid Background="WhiteSmoke" ToolTip="Right Click on an item to view possible edit options">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Border Background="Transparent" Visibility="{Binding Visibility}">
+            <Border BorderBrush="Transparent" BorderThickness="1" Background="WhiteSmoke" CornerRadius="2,2,2,2" VerticalAlignment="Center" HorizontalAlignment="Left">
+                <Grid Width="300" Grid.Row="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="30"/>
+                        <ColumnDefinition Width="30"/>
+                        <ColumnDefinition Width="20"/>
+                    </Grid.ColumnDefinitions>
+
+                    <TextBox Name="txtSearchTree" KeyDown="txtSearchTree_KeyDown"  GotFocus="txtSearchTree_GotFocus" LostFocus="txtSearchTree_LostFocus" HorizontalAlignment="Left" VerticalContentAlignment="Center" Margin="10, 0, 0, 0" Width="200" Height="23"  Text="SearchTree:" FontFamily="Palatino Linotype" Grid.Column="0" TextChanged="txtSearchTree_TextChanged">
+
+                    </TextBox>
+
+                    <Button Grid.Column="1" Name="btnRefresh" ToolTip="Refresh" Command="c:CustomerExplorerCommands.LoadCustomerExplorer" >
+
+                        <Image Source="/Presentation/Resources/Images/Refresh16.png" Height="20"  />
+                    </Button>
+
+                    <Button Grid.Column="2" Name="btnAscending">
+                        <Image Source="/Presentation/Resources/Images/ascend.png" Height="20" />
+                    </Button>
+                    <Grid.Resources>
+                        <Style TargetType="{x:Type Button}">
+                            <Setter Property="Background" Value="Transparent"  />
+                            <Setter Property="BorderBrush" Value="Transparent" />
+                        </Style>
+                    </Grid.Resources>
+                </Grid>
+            </Border>
+        </Border>
+        <TreeView BorderBrush="Transparent" FontFamily="Verdana" FontWeight="Light" x:Name="CustomerTree" Grid.Row="1">
+            <TreeViewItem Name="CustomersTreeItem" Header="Customers" HeaderTemplate="{DynamicResource Entities}">
+                <TreeViewItem.Resources>
+                    <!-- for control template TargetType="{x:Type TreeViewItem} Template="{DynamicResource qwe}" -->
+                    <DataTemplate x:Key="Entities">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Name="img"
+								   Width="18"
+								   Height="18"
+								   Margin="1"
+								   Source="/Presentation/Resources/Images/complex-types.png"/>
+                            <TextBlock Text="{Binding}" Margin="5,0" />
+                        </StackPanel>
+                    </DataTemplate>
+                    <Style TargetType="{x:Type TreeViewItem}">
+                        <Setter Property="ToolTip" Value="Right Click on Entity to Edit Structure/ Behaviour" />
+                    </Style>
+                </TreeViewItem.Resources>
+                <!--<TreeViewItem.InputBindings>
+				<MouseBinding Command="cx:TreeItemDoubleClick.TreeViewDoubleClick" MouseAction="LeftDoubleClick" CommandParameter="Entities"/>
+			</TreeViewItem.InputBindings>-->
+              
+            </TreeViewItem>
+            <TreeViewItem Name="ContactsTreeItems" Header="Contacts" HeaderTemplate="{DynamicResource HierarchyTemplate}">
+                <TreeViewItem.Resources>
+                    <!-- for control template TargetType="{x:Type TreeViewItem} Template="{DynamicResource qwe}" -->
+                    <DataTemplate x:Key="HierarchyTemplate" x:Name="HierarchyTemplate">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Name="img"
+								   Width="18"
+								   Height="18"
+								   Margin="1"
+								   Source="/Presentation/Resources/Images/simple-types.png"/>
+                            <TextBlock Text="{Binding}" Margin="5,0" />
+                        </StackPanel>
+                    </DataTemplate>
+                    <Style TargetType="{x:Type TreeViewItem}">
+                        <Setter Property="ToolTip" Value="Right Click on Entity to Edit Structure/ Behaviour" />
+                    </Style>
+                </TreeViewItem.Resources>
+            </TreeViewItem>
+        </TreeView>
+    </Grid>
+    </dock:DockableContent>

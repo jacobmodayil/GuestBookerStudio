@@ -1,0 +1,172 @@
+﻿<UserControl x:Class="Guest_Booker_Studio.Pages.Entity.AddNewCustomer"
+	  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	  xmlns:controls="clr-namespace:Guest_Booker_Studio.Presentation.Controls"
+	  xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+	  mc:Ignorable="d" 
+	  d:DesignHeight="300" d:DesignWidth="602" x:Name="AddNewCustomerForm" Loaded="UserControl_Loaded">
+    <UserControl.Triggers>
+        <EventTrigger RoutedEvent="UserControl.Loaded">
+            <BeginStoryboard>
+                <Storyboard Name="FormFade">
+                    <DoubleAnimation  Name="FormFadeAnimation"
+                                            Storyboard.TargetName="AddNewCustomerForm"
+                                            Storyboard.TargetProperty="(Window.Opacity)"
+                                            From="0.0" To="1.0" Duration="0:0:0.2"
+                                            AutoReverse="False" RepeatBehavior="1x"
+                                         />
+                </Storyboard>
+            </BeginStoryboard>
+        </EventTrigger>
+        <EventTrigger RoutedEvent="UserControl.Unloaded">
+            <BeginStoryboard>
+                <Storyboard Name="FormFadeOut" Completed="FormFadeOut_Completed">
+                    <DoubleAnimation  Name="FormFadeOutAnimation"
+                                            Storyboard.TargetName="AddNewCustomerForm"
+                                            Storyboard.TargetProperty="(Window.Opacity)"
+                                            From="1.0" To="0.0" Duration="0:0:0.2"
+                                            AutoReverse="False" RepeatBehavior="1x"
+                                         />
+                </Storyboard>
+            </BeginStoryboard>
+        </EventTrigger>
+    </UserControl.Triggers>
+	<Grid>
+		<Border Background="#90EEEEEE" Visibility="{Binding Visibility}" CornerRadius="6">
+			<Border BorderBrush="Black" BorderThickness="1" x:Name="ModalBorder"
+					CornerRadius="6" VerticalAlignment="Center" Background="#FFF"
+					HorizontalAlignment="Center" Width="563">
+				<!--x:Name="ModalBorder" is mandatory-->
+				<Border.BitmapEffect>
+					<DropShadowBitmapEffect Color="Black" Opacity="0.5" Direction="270" ShadowDepth="0.7" />
+				</Border.BitmapEffect>
+				<Grid>
+					<Grid.RowDefinitions>
+						<RowDefinition Height="30" />
+						<RowDefinition Height="*" />
+					</Grid.RowDefinitions>
+					<Border Background="#3C3224" Padding="10, 3, 3, 3">
+						<Grid Grid.Row="0">
+							<Grid.ColumnDefinitions>
+								<ColumnDefinition Width="*"  />
+								<ColumnDefinition Width="22" />
+							</Grid.ColumnDefinitions>
+							<Label Name="addcustomerlabel" Content="Add New Customer" 
+								   Margin="0,0,0,-2" Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Center"
+								   Foreground="White" FontFamily="Calibri" FontSize="14" FontWeight="DemiBold" FontStretch="SemiExpanded" />
+							<Button Grid.Column="3" 
+									Background="Transparent" BorderThickness="0" BorderBrush="Transparent"
+									HorizontalAlignment="Stretch" VerticalAlignment="Center" Focusable="False" Padding="2"
+									Name="cmdCancel" ToolTip="Close" Click="cmdCancelButton_Click">
+								<Image Source="/Presentation/Resources/Images/close.gif" />
+							</Button>
+						</Grid>
+					</Border>
+					<Grid Grid.Row="1">
+						<Grid.RowDefinitions>
+							<RowDefinition Height="30" />
+							<RowDefinition Height="*" />
+							<RowDefinition Height="50"/>
+						</Grid.RowDefinitions>
+						<Grid Name="grdNewCustomer" Grid.Row="1">
+							<Grid.RowDefinitions>
+								<RowDefinition Height="35" />
+								<RowDefinition Height="35" />
+								<RowDefinition Height="30" />
+								<RowDefinition Height="30"/>
+								<RowDefinition Height="30"/>
+							</Grid.RowDefinitions>
+							<Grid.ColumnDefinitions>
+								<ColumnDefinition Width="103" />
+								<ColumnDefinition Width="167" />
+								<ColumnDefinition Width="100" />
+								<ColumnDefinition Width="180" />
+							</Grid.ColumnDefinitions>
+
+							<Label  Grid.Row="0" Grid.Column="0" Content="Organization" Name="lblCustomerOrg" />
+							<TextBox  Grid.Row="0"  Grid.Column="1" Name="txtOrganization" >
+								<TextBox.Text>
+									<Binding Path="Name" Mode="TwoWay">
+										<!--<Binding.ValidationRules>
+										<c:NamePropertyValidation/>
+									</Binding.ValidationRules>-->
+									</Binding>
+								</TextBox.Text>
+							</TextBox>
+
+							<Label  Grid.Row="0" Grid.Column="2" Content="Name" Name="lblName" />
+							<TextBox  Grid.Row="0" Grid.Column="3" Name="txtName">
+							</TextBox>
+
+							<Label  Grid.Row="1" Grid.Column="0" Content="No of People" Name="lblNumOfPpl" />
+							<TextBox Grid.Row="1" Grid.Column="1" Name="txtNumOfPpl" Margin="0,4,0,7" />
+
+							<Label Grid.Row="1"   Grid.Column="2" Content="Purpose" Name="lblPurpose"/>
+							<TextBox Grid.Row="1" Name="txtPurpose" Grid.Column="3" Grid.RowSpan="2"  TextWrapping="WrapWithOverflow" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" AcceptsReturn="True" Height="60"  Margin="0,5,5,0"/>
+							
+							<Label  Grid.Row="2" Grid.Column="0" Content="Phone Number" Name="lblPhoneLabel" />
+							<TextBox  Grid.Row="2" Grid.Column="1" Name="txtPhoneNumber" Margin="0,4,0,1" />
+
+							<Label  Grid.Row="3" Grid.Column="0" Content="IsSpecial" Name="lblIsSpecial" />
+							<CheckBox Grid.Row="3" Grid.Column="1" Name="chkIsSpecial"  />
+
+							<Label Grid.Row="3" Grid.Column="2" Content="IsActive" Name="lblIsActive"/>
+							<CheckBox Grid.Row="3" Grid.Column="3" Name="chkIsActive" IsChecked="True" IsEnabled="False"/>
+
+							<Label Grid.Row="4" Grid.Column="0" Content="From Date" Name="lblFromDate"/>
+                            <TextBox Grid.Row="4" Grid.Column="1" Name="txtFromDate" Margin="0,4,0,7" />
+
+
+                            <Label Grid.Row="4" Grid.Column="2" Content="To Date" Name="lblToDate"/>
+                            <TextBox Grid.Row="4" Grid.Column="3" Name="txtToDate" Margin="0,4,0,7" />
+
+                            <Grid.Resources>
+								<Style TargetType="{x:Type Label}">
+									<Setter Property="HorizontalAlignment" Value="Right" />
+									<Setter Property="VerticalAlignment" Value="Center" />
+									<Setter Property="Margin" Value="0, 0, 5, 0" />
+								</Style>
+								<Style TargetType="{x:Type TextBox}">
+									<Setter Property="HorizontalAlignment" Value="Left" />
+									<Setter Property="VerticalAlignment" Value="Center" />
+									<Setter Property="Width" Value="150" />
+									<Setter Property="Height" Value="25" />
+									<Setter Property="Margin" Value="0,0,0,5" />
+								</Style>
+								<Style TargetType="{x:Type CheckBox}">
+									<Setter Property="HorizontalAlignment" Value="Left" />
+									<Setter Property="VerticalAlignment" Value="Center" />
+									<Setter Property="Margin" Value="0, 0, 0, 0" />
+								</Style>
+							</Grid.Resources>
+						</Grid>
+						<Grid Grid.Row="2">
+							<Grid.RowDefinitions>
+								<RowDefinition Height="50" />
+							</Grid.RowDefinitions>
+							<Grid.ColumnDefinitions>
+								<ColumnDefinition Width="40" />
+								<ColumnDefinition Width="40" />
+								<ColumnDefinition Width="*" />
+								<ColumnDefinition Width="100" />
+								<ColumnDefinition Width="130" />
+							</Grid.ColumnDefinitions>
+							<Button Grid.Row="2" Grid.Column="4"  Content="Save Customer" Name="cmdSaveCustomer" 
+									Style="{StaticResource GlassButton}" Width="120" Click="cmdSaveCustomer_Click" />
+							<Grid.Resources>
+								<Style TargetType="{x:Type Button}">
+									<Setter Property="HorizontalAlignment" Value="Center" />
+									<Setter Property="VerticalAlignment" Value="Bottom" />
+									<Setter Property="Width" Value="Auto" />
+									<!--<Setter Property="Height" Value="24" />-->
+									<Setter Property="Margin" Value="10, 10, 0, 0" />
+								</Style>
+							</Grid.Resources>
+						</Grid>
+					</Grid>
+				</Grid>
+			</Border>
+		</Border>
+	</Grid>
+</UserControl>
