@@ -1,4 +1,4 @@
-# GuestBookerStudio
+# Guest Booker Studio
 Guest Booker Studio was designed and developed for a not for profit organization called Ecumenical Christian Center in Bangalore, India. 
 The need for the organization was to have a software that helps them in managing appointments, events contacts and invoice generation. 
 With this kept in mind, Guest Booker Studio offers the following functions:
