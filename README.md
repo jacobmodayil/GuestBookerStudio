@@ -14,3 +14,5 @@ With this kept in mind, Guest Booker Studio offers the following functions:
 5. Report Generation
 
 6. To-do Lists
+
+GuestBookerStudio was developed using the .Net 4.5 Framework and Windows Presentation Foundation. This application also makes use of the open source docking manager - Avalon Dock to provide the ability to work on multiple tabs.
